@@ -6,7 +6,7 @@ const jamaica = 120;
 
 
 let countrySelect = prompt('Введите страну').toLowerCase();                     //преобразовуем в строчные символы введенное слово
-countrySelect = countrySelect.charAt(0).toUpperCase()+countrySelect.substr(1);  //делаем первый символ названия с большой буквы
+countrySelect = countrySelect.slice(0,1).toUpperCase()+countrySelect.slice(1);  //делаем первый символ названия с большой буквы
 
 switch (countrySelect) {
     case 'Китай':
