@@ -1,7 +1,6 @@
-const name = 'Генератор защитного поля';
+const name = 'Protective Field Generator';
 
 let price = 1000;
-console.log(`Выбран "${name}" цена за штуку ${price} кредитов`);
+console.log(`Selected "${name}" price per unit is ${price} credits`);
 price = 2000;
-console.log(`Выбран "${name}" цена за штуку ${price} кредитов`);
-
+console.log(`Selected "${name}" price per unit is ${price} credits`);

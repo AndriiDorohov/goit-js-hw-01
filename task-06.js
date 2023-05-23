@@ -1,13 +1,16 @@
 let input;
 let total = 0;
 
-while (input !== null)  {                   //проверяем на нажатие Cancel
-    input = prompt('Введите число');
+while (input !== null) {
+    input = prompt('Enter a number');
     
-    if (input !== null)                     
-    {input = Number(input);}                //если было введено значение, переведем его в число
+    if (input !== null) {
+        input = Number(input);
+    }
     
-    if (Number.isNaN(input) === false) {   //если введено число, а не символ, тогда выполняем сложение иначе возвращаемся в начало цикла
-    total = (total + input);}
+    if (Number.isNaN(input) === false) {
+        total = (total + input);
+    }
 };
-alert (`Общая сумма чисел равна ${total}`)
+
+alert(`The total sum of numbers is ${total}`);
